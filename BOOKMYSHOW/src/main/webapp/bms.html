@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="bms.css">
+<title>BookMyShow</title>
+</head>
+<body>
+	<div id="main">
+		<form action="tickets" target="_self" method="post">
+			<table class="table">
+
+				<tr>
+					<td><label for="mm">NAME:</label></td>
+					<td><input type="text" id="mm" placeholder="name" name="name"
+						required></td>
+				</tr>
+
+				<tr>
+					<td><label for="nn">MOVIE NAME:</label></td>
+					<td><input type="text" id="nn" placeholder="movie name"
+						name="moviename" required></td>
+				</tr>
+
+				<tr>
+					<td><label for="ii">SEAT:</label></td>
+					<td><input type="text" id="ii" placeholder="seat number"
+						name="seatnumber" required></td>
+				</tr>
+
+				<tr>
+					<td><label for="aa"></label>TICKET PRICE:</td>
+					<td><input type="text" id="aa" placeholder="price"
+						name="ticketprice" required></td>
+				</tr>
+
+				<tr>
+					<td><label for="kk">NO of TICKETS</label></td>
+					<td><input type="text" id="kk" placeholder="no of tickets"
+						name="ticketscount" required></td>
+				</tr>
+
+			</table>
+	</div>
+	<div id="main2">
+		<button class="submit">BOOK</button>
+		<button class="reset">RESET</button>
+	</div>
+	</form>
+</body>
+</html>

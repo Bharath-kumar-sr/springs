@@ -1,0 +1,108 @@
+body {
+	background-color: #F0F0F0;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#main {
+	position: absolute;
+	left: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	float: left;
+	border-radius: 10px;
+	position: absolute;
+	top: 25px;
+	height: 610px;
+	width: 600px;
+	color: #686868;
+	font-size: 17px;
+	letter-spacing: 1px;
+	background-color: white;
+	box-shadow: 0 0 15px #888888;
+}
+
+#main2 {
+	position: absolute;
+	top: 170px;
+	right: 220px;
+	height: 300px;
+	width: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+input {
+	border: 1px solid #BEBEBE;
+	border-radius: 5px;
+	height: 25px;
+	padding: 8px;
+	margin-bottom: 10px;
+}
+
+input:focus, textarea:focus {
+	outline: 1px solid cornflowerblue;
+}
+
+label {
+	padding-right: 50px;
+}
+
+textarea {
+	border: 1px solid #BEBEBE;
+	border-radius: 5px;
+	margin-bottom: 9px;
+}
+
+select {
+	border: 1px solid #BEBEBE;
+	width: 150px;
+	height: 30px;
+	border-radius: 5px;
+	margin-bottom: 9px;
+}
+
+.submit {
+	position: absolute;
+	top: 40px;
+	background-color: #2772db;
+	border: 0;
+	width: 250px;
+	height: 80px;
+	border-radius: 13px;
+	color: white;
+	cursor: pointer;
+	transition: 0.15s ease;
+	font-size: 30px;
+	letter-spacing: 3px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.reset {
+	position: absolute;
+	top: 130px;
+	background-color: grey;
+	border: 0;
+	width: 250px;
+	height: 80px;
+	margin-top: 30px;
+	border-radius: 13px;
+	color: white;
+	cursor: pointer;
+	transition: 0.15s ease;
+	font-size: 30px;
+	letter-spacing: 3px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+button:hover, button:focus, button:active {
+	box-shadow: 0 0 20px grey;
+	transform: scale(1.2);
+}

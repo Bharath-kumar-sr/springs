@@ -1,0 +1,192 @@
+body {
+	height: 100vh;
+	margin: 0;
+	background-color: #F0F0F0;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.brand {
+	height: 100px;
+	width: 1320px;
+	margin: 15px;
+	background-color: #df1827;
+	border-radius: 8px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.brand h1 {
+	position: absolute;
+	top: 15px;
+	left: 30px;
+	color: white;
+	font-size: 40px;
+	font-weight: bolder;
+	transition: 0.15s ease;
+}
+
+.brand a {
+	position: absolute;
+	top: 10px;
+	right: 40px;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: bolder;
+	transition: 0.15s ease;
+}
+
+.brand p:hover, .brand p:active {
+	color: #606060;
+}
+
+.mainone {
+	margin: 15px;
+	height: 320px;
+	width: 1320px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 140px;
+}
+
+.maintwo {
+	margin: 15px;
+	height: 320px;
+	width: 400px;
+	width: 1320px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 140px;
+}
+
+.one, .two, .three, .four, .five, .six, .seven, .eight {
+	border-radius: 12px;
+	height: 280px;
+	width: 200px;
+	overflow: hidden;
+	box-shadow: 0 0 20px grey;
+	transition: 0.15s ease;
+}
+
+.four img {
+	height: 110%;
+	transition: 0.15s ease;
+}
+
+img {
+	width: 100%;
+	transition: 0.15s ease;
+}
+
+.mainone .name {
+	height: 70px;
+	width: 200px;
+	box-sizing: border-box;
+	position: absolute;
+	background-color: rgb(27, 27, 27, 0.5);
+	color: white;
+	bottom: 230px;
+	border-radius: 12px;
+	text-align: center;
+	transition: 0.3s ease;
+	opacity: 0;
+}
+
+.maintwo .name {
+	height: 70px;
+	width: 200px;
+	box-sizing: border-box;
+	position: absolute;
+	background-color: rgb(27, 27, 27, 0.5);
+	color: white;
+	top: 660px;
+	border-radius: 12px;
+	text-align: center;
+	transition: 0.3s ease;
+	opacity: 0;
+}
+
+.mainone h1, .maintwo h1 {
+	opacity: 0;
+	font-size: 20px;
+}
+
+.mainone p, .maintwo p {
+	opacity: 0;
+	font-size: 15px;
+}
+
+.mainone p, .mainone button, .maintwo p, .maintwo button {
+	visibility: hidden;
+	opacity: 0;
+}
+
+button {
+	height: 30px;
+	width: 120px;
+	margin: 5px;
+	border: 0;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.15s ease;
+	background-color: #df1827;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+
+button:hover, button:active {
+	transform: scale(1.1);
+}
+
+.mainone div:hover img {
+	transform: scale(1.1);
+	filter: blur(5px);
+}
+
+.maintwo div:hover img {
+	transform: scale(1.1);
+	filter: blur(5px);
+}
+
+.mainone div:hover .name {
+	height: 200px;
+	opacity: 1;
+}
+
+.maintwo div:hover .name {
+	height: 200px;
+	top: 565px;
+	opacity: 1;
+}
+
+.mainone div:hover h1 {
+	opacity: 1;
+}
+
+.maintwo div:hover h1 {
+	opacity: 1;
+}
+
+.mainone div:hover p {
+	visibility: visible;
+	opacity: 1;
+}
+
+.maintwo div:hover p {
+	visibility: visible;
+	opacity: 1;
+}
+
+.mainone div:hover button {
+	visibility: visible;
+	opacity: 1;
+}
+
+.maintwo div:hover button {
+	visibility: visible;
+	opacity: 1;
+}
